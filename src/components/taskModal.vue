@@ -98,7 +98,7 @@ export default {
     },
     editTaskHandler() {
       console.log("editTaskHandler");
-      console.log(console.log(this.data));
+      console.log(this.data);
       console.log("editTaskHandler");
       editedData = { ...this.data };
       editedData.taskName = this.title;
@@ -109,11 +109,11 @@ export default {
       this.closeModalHandler();
     },
   },
-//   watch: {
-//     data() {
-//       console.log("yallah");
-//     },
-//   },
+  //   watch: {
+  //     data() {
+  //       console.log("yallah");
+  //     },
+  //   },
 };
 </script>
 <!-- <style>
